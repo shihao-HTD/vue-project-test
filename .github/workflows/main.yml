@@ -1,0 +1,20 @@
+name: "demo-action"
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    steps:
+      # Runs a single command using the runners shell
+      - name: checout
+        run: echo Hello, world!
+      - name: cache
+        run: echo Hello, world!
+      - name: install
+        run: echo Hello, world!
+      - name: build
+        run: echo Hello, world!
+      - name: publish
+        run: echo Hello, world!
